@@ -2,6 +2,9 @@
 
 This is my submission for the HTML certification project on freecodecamp.org. HTML is the first course toward the Responsive Web Design Certification, which in itself is also a section of the Certified Full Stack Developer Curriculum. I have listed the link to the project prompt, example survey form, project instructions, and user stories that must be included in the project. **By design, will not save or submit user input.**
 
+View site on Github pages:
+http://matthewdbrown.dev/html-survey-form/
+
 https://www.freecodecamp.org/learn/responsive-web-design-v9/lab-survey-form/build-a-survey-form
 
 Instructions: Build an app functionally similar to this example project. Try not to copy the example project, give it your own personal style.
