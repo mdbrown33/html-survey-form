@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFB Survey</title>
+</head>
+<body>
+    <h1 id="title">College Football Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete this short survey regarding current trends in college football.</p>
+    
+    <form id="survey-form">
+        <fieldset>
+            <legend>Demographic Information</legend>
+            <label id="name-label" for="name">Name:</label>
+            <input required type="text" id="name" name="name" placeholder="Your Name">
+            <br>
+            <label id="email-label" for="email">Email:</label>
+            <input required type="email" id="email" name="email" placeholder="email@example.com">
+            <br>
+            <label id="number-label" for="number">Age (Optional):</label>
+            <input type="number" id="number" name="age" min="12" max="100" placeholder="12+">
+        </fieldset>
+        
+        <fieldset>
+            <legend>CFB Questions</legend>
+            <label for="dropdown">Choose your favorite team</label>
+            <select required id="dropdown" name="fandom">
+                <option value="air-force-falcons">Air Force Falcons</option>
+                <option value="akron-zips">Akron Zips</option>
+                <option value="alabama-crimson-tide">Alabama Crimson Tide</option>
+                <option value="appalachian-state-mountaineers">Appalachian State Mountaineers</option>
+                <option value="arizona-state-sun-devils">Arizona State Sun Devils</option>
+                <option value="arizona-wildcats">Arizona Wildcats</option>
+                <option value="arkansas-razorbacks">Arkansas Razorbacks</option>
+                <option value="arkansas-state-red-wolves">Arkansas State Red Wolves</option>
+                <option value="army-black-knights">Army Black Knights</option>
+                <option value="auburn-tigers">Auburn Tigers</option>
+                <option value="ball-state-cardinals">Ball State Cardinals</option>
+                <option value="baylor-bears">Baylor Bears</option>
+                <option value="boise-state-broncos">Boise State Broncos</option>
+                <option value="boston-college-eagles">Boston College Eagles</option>
+                <option value="bowling-green-falcons">Bowling Green Falcons</option>
+                <option value="buffalo-bulls">Buffalo Bulls</option>
+                <option value="byu-cougars">BYU Cougars</option>
+                <option value="california-bears">California Bears</option>
+                <option value="central-michigan-chippewas">Central Michigan Chippewas</option>
+                <option value="charlotte-49ers">Charlotte 49ers</option>
+                <option value="cincinnati-bearcats">Cincinnati Bearcats</option>
+                <option value="clemson-tigers">Clemson Tigers</option>
+                <option value="coastal-carolina-chanticleers">Coastal Carolina Chanticleers</option>
+                <option value="colorado-buffaloes">Colorado Buffaloes</option>
+                <option value="colorado-state-rams">Colorado State Rams</option>
+                <option value="delaware-blue-hens">Delaware Blue Hens</option>
+                <option value="duke-blue-devils">Duke Blue Devils</option>
+                <option value="east-carolina-pirates">East Carolina Pirates</option>
+                <option value="eastern-michigan-eagles">Eastern Michigan Eagles</option>
+                <option value="florida-atlantic-owls">Florida Atlantic Owls</option>
+                <option value="florida-gators">Florida Gators</option>
+                <option value="florida-international-panthers">Florida International Panthers</option>
+                <option value="florida-state-seminoles">Florida State Seminoles</option>
+                <option value="fresno-state-bulldogs">Fresno State Bulldogs</option>
+                <option value="georgia-bulldogs">Georgia Bulldogs</option>
+                <option value="georgia-southern-eagles">Georgia Southern Eagles</option>
+                <option value="georgia-state-panthers">Georgia State Panthers</option>
+                <option value="georgia-tech-yellow-jackets">Georgia Tech Yellow Jackets</option>
+                <option value="hawaii-rainbow-warriors">Hawaii Rainbow Warriors</option>
+                <option value="houston-cougars">Houston Cougars</option>
+                <option value="illinois-fighting-illini">Illinois Fighting Illini</option>
+                <option value="indiana-hoosiers">Indiana Hoosiers</option>
+                <option value="iowa-hawkeyes">Iowa Hawkeyes</option>
+                <option value="iowa-state-cyclones">Iowa State Cyclones</option>
+                <option value="jacksonville-state-gamecocks">Jacksonville State Gamecocks</option>
+                <option value="james-madison-dukes">James Madison Dukes</option>
+                <option value="kansas-jayhawks">Kansas Jayhawks</option>
+                <option value="kansas-state-wildcats">Kansas State Wildcats</option>
+                <option value="kennesaw-state-owls">Kennesaw State Owls</option>
+                <option value="kent-state-golden-flashes">Kent State Golden Flashes</option>
+                <option value="kentucky-wildcats">Kentucky Wildcats</option>
+                <option value="liberty-flames">Liberty Flames</option>
+                <option value="louisiana-ragin-cajuns">Louisiana Ragin' Cajuns</option>
+                <option value="louisiana-tech-bulldogs">Louisiana Tech Bulldogs</option>
+                <option value="louisville-cardinals">Louisville Cardinals</option>
+                <option value="lsu-tigers">LSU Tigers</option>
+                <option value="marshall-thundering-herd">Marshall Thundering Herd</option>
+                <option value="maryland-terrapins">Maryland Terrapins</option>
+                <option value="massachusetts-minutemen">Massachusetts Minutemen</option>
+                <option value="memphis-tigers">Memphis Tigers</option>
+                <option value="miami-fl-hurricanes">Miami (FL) Hurricanes</option>
+                <option value="miami-oh-redhawks">Miami (OH) RedHawks</option>
+                <option value="michigan-wolverines">Michigan Wolverines</option>
+                <option value="michigan-state-spartans">Michigan State Spartans</option>
+                <option value="middle-tennessee-blue-raiders">Middle Tennessee Blue Raiders</option>
+                <option value="minnesota-golden-gophers">Minnesota Golden Gophers</option>
+                <option value="mississippi-state-bulldogs">Mississippi State Bulldogs</option>
+                <option value="missouri-tigers">Missouri Tigers</option>
+                <option value="navy-midshipmen">Navy Midshipmen</option>
+                <option value="nc-state-wolfpack">NC State Wolfpack</option>
+                <option value="nebraska-cornhuskers">Nebraska Cornhuskers</option>
+                <option value="nevada-wolf-pack">Nevada Wolf Pack</option>
+                <option value="new-mexico-lobos">New Mexico Lobos</option>
+                <option value="new-mexico-state-aggies">New Mexico State Aggies</option>
+                <option value="north-carolina-tar-heels">North Carolina Tar Heels</option>
+                <option value="north-texas-mean-green">North Texas Mean Green</option>
+                <option value="northern-illinois-huskies">Northern Illinois Huskies</option>
+                <option value="northwestern-wildcats">Northwestern Wildcats</option>
+                <option value="notre-dame-fighting-irish">Notre Dame Fighting Irish</option>
+                <option value="ohio-bobcats">Ohio Bobcats</option>
+                <option selected value="ohio-state-buckeyes">Ohio State Buckeyes</option>
+                <option value="oklahoma-sooners">Oklahoma Sooners</option>
+                <option value="oklahoma-state-cowboys">Oklahoma State Cowboys</option>
+                <option value="old-dominion-monarchs">Old Dominion Monarchs</option>
+                <option value="ole-miss-rebels">Ole Miss Rebels</option>
+                <option value="oregon-ducks">Oregon Ducks</option>
+                <option value="oregon-state-beavers">Oregon State Beavers</option>
+                <option value="penn-state-nittany-lions">Penn State Nittany Lions</option>
+                <option value="pittsburgh-panthers">Pittsburgh Panthers</option>
+                <option value="purdue-boilermakers">Purdue Boilermakers</option>
+                <option value="rice-owls">Rice Owls</option>
+                <option value="rutgers-scarlet-knights">Rutgers Scarlet Knights</option>
+                <option value="sam-houston-bearkats">Sam Houston Bearkats</option>
+                <option value="san-diego-state-aztecs">San Diego State Aztecs</option>
+                <option value="san-jose-state-spartans">San Jose State Spartans</option>
+                <option value="smu-mustangs">SMU Mustangs</option>
+                <option value="south-alabama-jaguars">South Alabama Jaguars</option>
+                <option value="south-carolina-gamecocks">South Carolina Gamecocks</option>
+                <option value="south-florida-bulls">South Florida Bulls</option>
+                <option value="southern-miss-golden-eagles">Southern Miss Golden Eagles</option>
+                <option value="stanford-cardinal">Stanford Cardinal</option>
+                <option value="syracuse-orange">Syracuse Orange</option>
+                <option value="tcu-horned-frogs">TCU Horned Frogs</option>
+                <option value="temple-owls">Temple Owls</option>
+                <option value="tennessee-volunteers">Tennessee Volunteers</option>
+                <option value="texas-am-aggies">Texas A&M Aggies</option>
+                <option value="texas-longhorns">Texas Longhorns</option>
+                <option value="texas-state-bobcats">Texas State Bobcats</option>
+                <option value="texas-tech-red-raiders">Texas Tech Red Raiders</option>
+                <option value="toledo-rockets">Toledo Rockets</option>
+                <option value="troy-trojans">Troy Trojans</option>
+                <option value="tulane-green-wave">Tulane Green Wave</option>
+                <option value="tulsa-golden-hurricane">Tulsa Golden Hurricane</option>
+                <option value="uab-blazers">UAB Blazers</option>
+                <option value="ucf-knights">UCF Knights</option>
+                <option value="ucla-bruins">UCLA Bruins</option>
+                <option value="uconn-huskies">UConn Huskies</option>
+                <option value="ul-monroe-warhawks">UL Monroe Warhawks</option>
+                <option value="unlv-rebels">UNLV Rebels</option>
+                <option value="usc-trojans">USC Trojans</option>
+                <option value="utah-state-aggies">Utah State Aggies</option>
+                <option value="utah-utes">Utah Utes</option>
+                <option value="utep-miners">UTEP Miners</option>
+                <option value="utsa-roadrunners">UTSA Roadrunners</option>
+                <option value="vanderbilt-commodores">Vanderbilt Commodores</option>
+                <option value="virginia-cavaliers">Virginia Cavaliers</option>
+                <option value="virginia-tech-hokies">Virginia Tech Hokies</option>
+                <option value="wake-forest-demon-deacons">Wake Forest Demon Deacons</option>
+                <option value="washington-huskies">Washington Huskies</option>
+                <option value="washington-state-cougars">Washington State Cougars</option>
+                <option value="west-virginia-mountaineers">West Virginia Mountaineers</option>
+                <option value="western-kentucky-hilltoppers">Western Kentucky Hilltoppers</option>
+                <option value="western-michigan-broncos">Western Michigan Broncos</option>
+                <option value="wisconsin-badgers">Wisconsin Badgers</option>
+                <option value="wyoming-cowboys">Wyoming Cowboys</option>
+            </select><br><br>
+            
+            <p>Rate your level of CFB fandom:</p>
+            <input type="radio" id="apathetic" name="fan-level" value="apathetic">
+            <label for="apathetic">Apathetic</label>
+            <input type="radio" id="mild-interest" name="fan-level" value="mild-interest">
+            <label for="mild-interest">Mild Interest</label>
+            <input type="radio" id="average" name="fan-level" value="average">
+            <label for="average">Average</label>
+            <input type="radio" id="big-fan" name="fan-level" value="big-fan">
+            <label for="big-fan">Big Fan</label>
+            <input type="radio" id="obsessed-superfan" name="fan-level" value="obsessed-superfan">
+            <label for="obsessed">Obsessed Superfan</label><br><br>
+            
+            <p>Which of the following topics in college football interest you most? (select all that apply)</p>            
+            <input type="checkbox" id="nil" name="nil" value="nil">
+            <label for="nil"> Name, Image, and Likeness Issues</label><br>
+            <input type="checkbox" id="coach" name="coach" value="coach">
+            <label for="coach"> Coaching Carousel</label><br>
+            <input type="checkbox" id="playoff" name="playoff" value="playoff">
+            <label for="playoff"> Playoff Changes</label><br>
+            <input type="checkbox" id="games" name="games" value="games">
+            <label for="games">Rankings</label><br>
+            <input type="checkbox" id="none" name="none" value="none">
+            <label for="none"> None of them</label><br><br>
+            
+            <label for="comments">If you would like to make any additional comments,<br> please do so below:<br></label>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+            
+        </fieldset>
+        <br>
+        <button type="submit" id="submit">Submit</button><br><br>
+        <button type="reset">Reset Form</button>
+    </form>
+</body>
+</html>
